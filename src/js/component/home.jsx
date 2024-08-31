@@ -21,7 +21,7 @@ const Home = () => {
         <div className="row-fluid justify-content-around align-items-center">
           <div className="col-md-10 bg-danger m-auto d-flex justify-content-evenly">
             <Cards
-              imgs="f1.jpg"
+              imgs="f1"
               altx="iquitos"
               nombre="Christian"
               cargo="Ingeniero"
@@ -29,7 +29,7 @@ const Home = () => {
             />
 
             <Cards
-              imgs="f4.jpg"
+              imgs="f4"
               altx="ojitos"
               nombre="Max"
               cargo="Tecnico"
@@ -37,7 +37,7 @@ const Home = () => {
             />
 
             <Cards
-              imgs="f2.jpg"
+              imgs="f2"
               altx="Gian"
               nombre="Gianluca"
               cargo="Administrador"
@@ -45,7 +45,7 @@ const Home = () => {
             />
 
             <Cards
-              imgs="f3.jpg"
+              imgs="f3"
               altx="Marisol"
               nombre="Marisol"
               cargo="Ingeniero"
