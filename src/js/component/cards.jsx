@@ -1,11 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../../styles/estilos.css';
 
 
 function Cards({ imgs, altx, nombre, cargo, notas }) {
     const imagePath = require(`../../img/${imgs}.jpg`);
     return (
-        <div className='card' style={{ width: '13rem' }}>
+        // <div className='card' style={{ width: '13rem' }}>
+        <div className='card' style={{ width: '100%', maxWidth: '18rem' }}>
             <img className='card-img-top' src={imagePath} alt={altx || 'Imagen no disponible'} />
             onError ={(e) => { e.target.onerror = null; e.target.src = 'ruta/por/defecto.jpg'; }} // Imagen por defecto
             <div className='card-body'>
@@ -18,14 +20,6 @@ function Cards({ imgs, altx, nombre, cargo, notas }) {
     );
 }
 
-// Definición de PropTypes
-Cards.propTypes = {
-    imgs: PropTypes.string.isRequired,
-    altx: PropTypes.string,
-    nombre: PropTypes.string.isRequired,
-    cargo: PropTypes.string.isRequired,
-    notas: PropTypes.string.isRequired,
-};
 
 export default Cards;
 

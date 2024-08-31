@@ -10,3 +10,17 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Espacio entre las tarjetas */
+}
+
+.card {
+    margin: 10px; /* Espacio entre las tarjetas */
+    flex: 1 1 300px; /* Crece y se encoge con un ancho base de 300px */
+    max-width: 300px; /* Ancho máximo para las tarjetas */
+}
+
