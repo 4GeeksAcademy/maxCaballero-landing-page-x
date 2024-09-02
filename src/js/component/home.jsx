@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Headers from "./headers.js";
-import Jumbos from "./jumbos.jsx";
+import Headers from "./headers.jsx";
+import Jumbos from "./jumbos.jxs";
 import Footers from "./footers.jsx";
 import Cards from "./cards.jsx";
 
@@ -43,7 +43,7 @@ const cardData = [
 const Home = () => {
   return (
     <div className="App">
-      <Headersx />
+      <Headers />
 
       <div className="row-fluid justify-content-around align-items-center">
         <div className="col-md-10  m-auto d-flex">
