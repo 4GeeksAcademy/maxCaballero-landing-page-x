@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Headers from "./headers.jsx";
+import Headers from "./headers.js";
 import Jumbos from "./jumbos.jsx";
 import Footers from "./footers.jsx";
 import Cards from "./cards.jsx";
@@ -43,7 +43,7 @@ const cardData = [
 const Home = () => {
   return (
     <div className="App">
-      <Headers />
+      <Headersx />
 
       <div className="row-fluid justify-content-around align-items-center">
         <div className="col-md-10  m-auto d-flex">
@@ -52,7 +52,7 @@ const Home = () => {
 
         <div className="row-fluid justify-content-around align-items-center mt-3">
           <div className="col-md-10 m-auto d-flex justify-content-evenly">
-           
+
             {cardData.map((card, index) => (
               <Cards key={index} {...card} />
             ))}
