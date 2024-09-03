@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Headers from "./headers.jsx";
-import Jumbos from "./jumbos.jxs";
+import Jumbos from "./jumbos.jsx";
 import Footers from "./footers.jsx";
 import Cards from "./cards.jsx";
 
@@ -12,14 +12,16 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const cardData = [
   {
     imgs: "foto1",
-    altx: "iquitos", nombre: "Christian",
+    altx: "iquitos",
+    nombre: "Christian",
     cargo: "Ingeniero",
     notas: "hghggsg hdjkwhwkwh hwjkhw 01"
   },
   {
     imgs: "foto2",
     altx: "Baseball",
-    nombre: "Max", cargo: "Técnico",
+    nombre: "Max",
+    cargo: "Técnico",
     notas: "hghggsg hdjkwhwkwh hwjkhw 02"
   },
   {
@@ -35,7 +37,6 @@ const cardData = [
     nombre: "Marisol",
     cargo: "Princesa",
     notas: "hghggsg hdjkwhwkwh hwjkhw 04",
-    boton: "Find Out More!"
   },
 ];
 

@@ -1,14 +1,15 @@
 import React from 'react';
 
-const Cards = () => {
+const Cards = ({ imgs, altx, nombre, cargo, notas }) => {
+    const imagePath = require(`./${imgs}.jpg`);
     return (
         <div className='card-ms-12' style={{ width: '13rem' }}>
-            <img className='card-img-top' src="../.././img/foto2.jpg" alt='christian' />
+            <img className='card-img-top' src={imagePath} alt={altx} />
             <div className='card-body'>
                 <div className='caja'>
-                    <h5 className='card-title text-center'>Christian</h5>
-                    <p className='card-title text-center'>Oficinista</p>
-                    <p className='card-text text-center'>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 className='card-title text-center'>{nombre}</h5>
+                    <p className='card-title text-center'>{cargo}</p>
+                    <p className='card-text text-center'>"{notas}".</p>
                     <a className='btn btn-primary' href='#p'>Find Out More!</a>
                 </div>
             </div>

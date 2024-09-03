@@ -4,7 +4,7 @@ import '../../styles/estilos.css';
 
 
 function Cards({ imgs, altx, nombre, cargo, notas }) {
-    const imagePath = require(`../../img/${imgs}.jpg`);
+    const imagePath = require(`./${imgs}.jpg`);
     return (
         // <div className='card' style={{ width: '13rem' }}>
         <div className='card' style={{ width: '100%', maxWidth: '18rem' }}>
