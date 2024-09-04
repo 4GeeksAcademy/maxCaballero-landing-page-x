@@ -11,28 +11,28 @@ import rigoImage from "../../img/rigo-baby.jpg";
 // Sample data for cards
 const cardData = [
   {
-    imgs: "foto1",
+    imgs: "foto8.jpg",
     altx: "iquitos",
     nombre: "Christian",
     cargo: "Ingeniero",
     notas: "hghggsg hdjkwhwkwh hwjkhw 01"
   },
   {
-    imgs: "foto2",
+    imgs: "foto7.jpg",
     altx: "Baseball",
     nombre: "Max",
     cargo: "Técnico",
     notas: "hghggsg hdjkwhwkwh hwjkhw 02"
   },
   {
-    imgs: "foto3",
+    imgs: "foto6.jpg",
     altx: "Moto",
     nombre: "Gianluca",
     cargo: "Administrador",
     notas: "hghggsg hdjkwhwkwh hwjkhw 03"
   },
   {
-    imgs: "foto4",
+    imgs: "foto5.jpg",
     altx: "Marisol",
     nombre: "Marisol",
     cargo: "Princesa",
