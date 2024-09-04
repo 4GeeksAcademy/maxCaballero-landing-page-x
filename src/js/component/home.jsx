@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Headers from "./headers.jsx";
 import Jumbos from "./jumbos.jsx";
 import Footers from "./footers.jsx";
-import Cards from "./cards.jsx";
+import Cards from "./cardsx.js";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -11,28 +11,28 @@ import rigoImage from "../../img/rigo-baby.jpg";
 // Sample data for cards
 const cardData = [
   {
-    imgs: "foto8.jpg",
+    imgs: "foto1",
     altx: "iquitos",
     nombre: "Christian",
     cargo: "Ingeniero",
     notas: "hghggsg hdjkwhwkwh hwjkhw 01"
   },
   {
-    imgs: "foto7.jpg",
+    imgs: "foto2",
     altx: "Baseball",
     nombre: "Max",
     cargo: "Técnico",
     notas: "hghggsg hdjkwhwkwh hwjkhw 02"
   },
   {
-    imgs: "foto6.jpg",
+    imgs: "foto3",
     altx: "Moto",
     nombre: "Gianluca",
     cargo: "Administrador",
     notas: "hghggsg hdjkwhwkwh hwjkhw 03"
   },
   {
-    imgs: "foto5.jpg",
+    imgs: "foto4",
     altx: "Marisol",
     nombre: "Marisol",
     cargo: "Princesa",
